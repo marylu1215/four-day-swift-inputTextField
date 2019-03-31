@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7080C7225096D3003A2D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7080C6225096D3003A2D41 /* AppDelegate.swift */; };
+		FA7080C9225096D3003A2D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7080C8225096D3003A2D41 /* ViewController.swift */; };
+		FA7080CC225096D3003A2D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7080CA225096D3003A2D41 /* Main.storyboard */; };
+		FA7080CE225096D4003A2D41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7080CD225096D4003A2D41 /* Assets.xcassets */; };
+		FA7080D1225096D4003A2D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7080CF225096D4003A2D41 /* LaunchScreen.storyboard */; };
+		FA7080DC225096D5003A2D41 /* four_day_swift_inputTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7080DB225096D5003A2D41 /* four_day_swift_inputTextFieldTests.swift */; };
+		FA7080E7225096D5003A2D41 /* four_day_swift_inputTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7080E6225096D5003A2D41 /* four_day_swift_inputTextFieldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7080D8225096D5003A2D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7080BB225096D3003A2D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7080C2225096D3003A2D41;
+			remoteInfo = "four-day-swift-inputTextField";
+		};
+		FA7080E3225096D5003A2D41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7080BB225096D3003A2D41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7080C2225096D3003A2D41;
+			remoteInfo = "four-day-swift-inputTextField";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7080C3225096D3003A2D41 /* four-day-swift-inputTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "four-day-swift-inputTextField.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7080C6225096D3003A2D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7080C8225096D3003A2D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA7080CB225096D3003A2D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7080CD225096D4003A2D41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7080D0225096D4003A2D41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA7080D2225096D5003A2D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7080D7225096D5003A2D41 /* four-day-swift-inputTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "four-day-swift-inputTextFieldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7080DB225096D5003A2D41 /* four_day_swift_inputTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = four_day_swift_inputTextFieldTests.swift; sourceTree = "<group>"; };
+		FA7080DD225096D5003A2D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7080E2225096D5003A2D41 /* four-day-swift-inputTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "four-day-swift-inputTextFieldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7080E6225096D5003A2D41 /* four_day_swift_inputTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = four_day_swift_inputTextFieldUITests.swift; sourceTree = "<group>"; };
+		FA7080E8225096D5003A2D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7080C0225096D3003A2D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7080D4225096D5003A2D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7080DF225096D5003A2D41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7080BA225096D3003A2D41 = {
+			isa = PBXGroup;
+			children = (
+				FA7080C5225096D3003A2D41 /* four-day-swift-inputTextField */,
+				FA7080DA225096D5003A2D41 /* four-day-swift-inputTextFieldTests */,
+				FA7080E5225096D5003A2D41 /* four-day-swift-inputTextFieldUITests */,
+				FA7080C4225096D3003A2D41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7080C4225096D3003A2D41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7080C3225096D3003A2D41 /* four-day-swift-inputTextField.app */,
+				FA7080D7225096D5003A2D41 /* four-day-swift-inputTextFieldTests.xctest */,
+				FA7080E2225096D5003A2D41 /* four-day-swift-inputTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7080C5225096D3003A2D41 /* four-day-swift-inputTextField */ = {
+			isa = PBXGroup;
+			children = (
+				FA7080C6225096D3003A2D41 /* AppDelegate.swift */,
+				FA7080C8225096D3003A2D41 /* ViewController.swift */,
+				FA7080CA225096D3003A2D41 /* Main.storyboard */,
+				FA7080CD225096D4003A2D41 /* Assets.xcassets */,
+				FA7080CF225096D4003A2D41 /* LaunchScreen.storyboard */,
+				FA7080D2225096D5003A2D41 /* Info.plist */,
+			);
+			path = "four-day-swift-inputTextField";
+			sourceTree = "<group>";
+		};
+		FA7080DA225096D5003A2D41 /* four-day-swift-inputTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7080DB225096D5003A2D41 /* four_day_swift_inputTextFieldTests.swift */,
+				FA7080DD225096D5003A2D41 /* Info.plist */,
+			);
+			path = "four-day-swift-inputTextFieldTests";
+			sourceTree = "<group>";
+		};
+		FA7080E5225096D5003A2D41 /* four-day-swift-inputTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7080E6225096D5003A2D41 /* four_day_swift_inputTextFieldUITests.swift */,
+				FA7080E8225096D5003A2D41 /* Info.plist */,
+			);
+			path = "four-day-swift-inputTextFieldUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7080C2225096D3003A2D41 /* four-day-swift-inputTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7080EB225096D5003A2D41 /* Build configuration list for PBXNativeTarget "four-day-swift-inputTextField" */;
+			buildPhases = (
+				FA7080BF225096D3003A2D41 /* Sources */,
+				FA7080C0225096D3003A2D41 /* Frameworks */,
+				FA7080C1225096D3003A2D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "four-day-swift-inputTextField";
+			productName = "four-day-swift-inputTextField";
+			productReference = FA7080C3225096D3003A2D41 /* four-day-swift-inputTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7080D6225096D5003A2D41 /* four-day-swift-inputTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7080EE225096D5003A2D41 /* Build configuration list for PBXNativeTarget "four-day-swift-inputTextFieldTests" */;
+			buildPhases = (
+				FA7080D3225096D5003A2D41 /* Sources */,
+				FA7080D4225096D5003A2D41 /* Frameworks */,
+				FA7080D5225096D5003A2D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7080D9225096D5003A2D41 /* PBXTargetDependency */,
+			);
+			name = "four-day-swift-inputTextFieldTests";
+			productName = "four-day-swift-inputTextFieldTests";
+			productReference = FA7080D7225096D5003A2D41 /* four-day-swift-inputTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA7080E1225096D5003A2D41 /* four-day-swift-inputTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7080F1225096D5003A2D41 /* Build configuration list for PBXNativeTarget "four-day-swift-inputTextFieldUITests" */;
+			buildPhases = (
+				FA7080DE225096D5003A2D41 /* Sources */,
+				FA7080DF225096D5003A2D41 /* Frameworks */,
+				FA7080E0225096D5003A2D41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7080E4225096D5003A2D41 /* PBXTargetDependency */,
+			);
+			name = "four-day-swift-inputTextFieldUITests";
+			productName = "four-day-swift-inputTextFieldUITests";
+			productReference = FA7080E2225096D5003A2D41 /* four-day-swift-inputTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7080BB225096D3003A2D41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = MacBookPro;
+				TargetAttributes = {
+					FA7080C2225096D3003A2D41 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FA7080D6225096D5003A2D41 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FA7080C2225096D3003A2D41;
+					};
+					FA7080E1225096D5003A2D41 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FA7080C2225096D3003A2D41;
+					};
+				};
+			};
+			buildConfigurationList = FA7080BE225096D3003A2D41 /* Build configuration list for PBXProject "four-day-swift-inputTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7080BA225096D3003A2D41;
+			productRefGroup = FA7080C4225096D3003A2D41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7080C2225096D3003A2D41 /* four-day-swift-inputTextField */,
+				FA7080D6225096D5003A2D41 /* four-day-swift-inputTextFieldTests */,
+				FA7080E1225096D5003A2D41 /* four-day-swift-inputTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7080C1225096D3003A2D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7080D1225096D4003A2D41 /* LaunchScreen.storyboard in Resources */,
+				FA7080CE225096D4003A2D41 /* Assets.xcassets in Resources */,
+				FA7080CC225096D3003A2D41 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7080D5225096D5003A2D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7080E0225096D5003A2D41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7080BF225096D3003A2D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7080C9225096D3003A2D41 /* ViewController.swift in Sources */,
+				FA7080C7225096D3003A2D41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7080D3225096D5003A2D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7080DC225096D5003A2D41 /* four_day_swift_inputTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7080DE225096D5003A2D41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7080E7225096D5003A2D41 /* four_day_swift_inputTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7080D9225096D5003A2D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7080C2225096D3003A2D41 /* four-day-swift-inputTextField */;
+			targetProxy = FA7080D8225096D5003A2D41 /* PBXContainerItemProxy */;
+		};
+		FA7080E4225096D5003A2D41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7080C2225096D3003A2D41 /* four-day-swift-inputTextField */;
+			targetProxy = FA7080E3225096D5003A2D41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7080CA225096D3003A2D41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7080CB225096D3003A2D41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7080CF225096D4003A2D41 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7080D0225096D4003A2D41 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7080E9225096D5003A2D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA7080EA225096D5003A2D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA7080EC225096D5003A2D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "four-day-swift-inputTextField/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.four-day-swift-inputTextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA7080ED225096D5003A2D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "four-day-swift-inputTextField/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.four-day-swift-inputTextField";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA7080EF225096D5003A2D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "four-day-swift-inputTextFieldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.four-day-swift-inputTextFieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/four-day-swift-inputTextField.app/four-day-swift-inputTextField";
+			};
+			name = Debug;
+		};
+		FA7080F0225096D5003A2D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "four-day-swift-inputTextFieldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.four-day-swift-inputTextFieldTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/four-day-swift-inputTextField.app/four-day-swift-inputTextField";
+			};
+			name = Release;
+		};
+		FA7080F2225096D5003A2D41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "four-day-swift-inputTextFieldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.four-day-swift-inputTextFieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "four-day-swift-inputTextField";
+			};
+			name = Debug;
+		};
+		FA7080F3225096D5003A2D41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9G4QXL6SA6;
+				INFOPLIST_FILE = "four-day-swift-inputTextFieldUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyutong.four-day-swift-inputTextFieldUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "four-day-swift-inputTextField";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7080BE225096D3003A2D41 /* Build configuration list for PBXProject "four-day-swift-inputTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7080E9225096D5003A2D41 /* Debug */,
+				FA7080EA225096D5003A2D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7080EB225096D5003A2D41 /* Build configuration list for PBXNativeTarget "four-day-swift-inputTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7080EC225096D5003A2D41 /* Debug */,
+				FA7080ED225096D5003A2D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7080EE225096D5003A2D41 /* Build configuration list for PBXNativeTarget "four-day-swift-inputTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7080EF225096D5003A2D41 /* Debug */,
+				FA7080F0225096D5003A2D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7080F1225096D5003A2D41 /* Build configuration list for PBXNativeTarget "four-day-swift-inputTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7080F2225096D5003A2D41 /* Debug */,
+				FA7080F3225096D5003A2D41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA7080BB225096D3003A2D41 /* Project object */;
+}
