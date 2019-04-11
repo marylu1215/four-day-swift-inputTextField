@@ -1,0 +1,6 @@
+framework module Pods_four_day_swift_inputTextField {
+  umbrella header "Pods-four-day-swift-inputTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

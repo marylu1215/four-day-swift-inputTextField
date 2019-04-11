@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C09E1B319F1F1CFDDEE94D58 /* Pods_four_day_swift_inputTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97ED2D4DDE8656A62940963F /* Pods_four_day_swift_inputTextField.framework */; };
 		FA7080C7225096D3003A2D41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7080C6225096D3003A2D41 /* AppDelegate.swift */; };
 		FA7080C9225096D3003A2D41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7080C8225096D3003A2D41 /* ViewController.swift */; };
 		FA7080CC225096D3003A2D41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7080CA225096D3003A2D41 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		FA7080D1225096D4003A2D41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7080CF225096D4003A2D41 /* LaunchScreen.storyboard */; };
 		FA7080DC225096D5003A2D41 /* four_day_swift_inputTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7080DB225096D5003A2D41 /* four_day_swift_inputTextFieldTests.swift */; };
 		FA7080E7225096D5003A2D41 /* four_day_swift_inputTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7080E6225096D5003A2D41 /* four_day_swift_inputTextFieldUITests.swift */; };
+		FA7080F522509960003A2D41 /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA7080F422509960003A2D41 /* avatar.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		97ED2D4DDE8656A62940963F /* Pods_four_day_swift_inputTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_four_day_swift_inputTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6B66642EFD28358D3FF73E /* Pods-four-day-swift-inputTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-four-day-swift-inputTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-four-day-swift-inputTextField/Pods-four-day-swift-inputTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		D03B4C2A055C3C565169FD20 /* Pods-four-day-swift-inputTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-four-day-swift-inputTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-four-day-swift-inputTextField/Pods-four-day-swift-inputTextField.release.xcconfig"; sourceTree = "<group>"; };
 		FA7080C3225096D3003A2D41 /* four-day-swift-inputTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "four-day-swift-inputTextField.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7080C6225096D3003A2D41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA7080C8225096D3003A2D41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,7 @@
 		FA7080E2225096D5003A2D41 /* four-day-swift-inputTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "four-day-swift-inputTextFieldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7080E6225096D5003A2D41 /* four_day_swift_inputTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = four_day_swift_inputTextFieldUITests.swift; sourceTree = "<group>"; };
 		FA7080E8225096D5003A2D41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7080F422509960003A2D41 /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09E1B319F1F1CFDDEE94D58 /* Pods_four_day_swift_inputTextField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97BD3D4402A34F435D181F46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B6B66642EFD28358D3FF73E /* Pods-four-day-swift-inputTextField.debug.xcconfig */,
+				D03B4C2A055C3C565169FD20 /* Pods-four-day-swift-inputTextField.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE4D9C3E22E7E0456153EFC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97ED2D4DDE8656A62940963F /* Pods_four_day_swift_inputTextField.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FA7080BA225096D3003A2D41 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +105,8 @@
 				FA7080DA225096D5003A2D41 /* four-day-swift-inputTextFieldTests */,
 				FA7080E5225096D5003A2D41 /* four-day-swift-inputTextFieldUITests */,
 				FA7080C4225096D3003A2D41 /* Products */,
+				97BD3D4402A34F435D181F46 /* Pods */,
+				BE4D9C3E22E7E0456153EFC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +123,7 @@
 		FA7080C5225096D3003A2D41 /* four-day-swift-inputTextField */ = {
 			isa = PBXGroup;
 			children = (
+				FA7080F422509960003A2D41 /* avatar.jpg */,
 				FA7080C6225096D3003A2D41 /* AppDelegate.swift */,
 				FA7080C8225096D3003A2D41 /* ViewController.swift */,
 				FA7080CA225096D3003A2D41 /* Main.storyboard */,
@@ -132,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA7080EB225096D5003A2D41 /* Build configuration list for PBXNativeTarget "four-day-swift-inputTextField" */;
 			buildPhases = (
+				D80020F6D5D661E0A1216609 /* [CP] Check Pods Manifest.lock */,
 				FA7080BF225096D3003A2D41 /* Sources */,
 				FA7080C0225096D3003A2D41 /* Frameworks */,
 				FA7080C1225096D3003A2D41 /* Resources */,
+				C4FC0DD722AD67443311156E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7080F522509960003A2D41 /* avatar.jpg in Resources */,
 				FA7080D1225096D4003A2D41 /* LaunchScreen.storyboard in Resources */,
 				FA7080CE225096D4003A2D41 /* Assets.xcassets in Resources */,
 				FA7080CC225096D3003A2D41 /* Main.storyboard in Resources */,
@@ -250,6 +280,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4FC0DD722AD67443311156E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-four-day-swift-inputTextField/Pods-four-day-swift-inputTextField-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-four-day-swift-inputTextField/Pods-four-day-swift-inputTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D80020F6D5D661E0A1216609 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-four-day-swift-inputTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA7080BF225096D3003A2D41 /* Sources */ = {
@@ -430,6 +507,7 @@
 		};
 		FA7080EC225096D5003A2D41 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B6B66642EFD28358D3FF73E /* Pods-four-day-swift-inputTextField.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +526,7 @@
 		};
 		FA7080ED225096D5003A2D41 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D03B4C2A055C3C565169FD20 /* Pods-four-day-swift-inputTextField.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
